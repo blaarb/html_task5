@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Контакты</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <table>
+                <tr>
+                    <td>
+                        <img id="logo" src="img/logoipsum-logo-25.svg" alt="Olympia logo">
+                    </td>
+                    <td>
+                        <ul id="menu">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="catalog.html">Каталог</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <form id="contact-page-form" action="#">
+            <label for="contact-page-form-name">Ваше имя:</label>
+            <input id="contact-page-form-name" type="text" placeholder="😎">
+            <br>
+            <label for="contact-page-form-select">Какой заказ Вас интересует:</label>
+            <select name="" id="contact-page-form-select">
+                <optgroup label="Голландские мастера">
+                    <option value="van-gogh">Винсент Ван Гог - «Ночное кафе»</option>
+                    <option value="vermeer">Ян Вермеер - «Девушка с жемчужной серёжкой»</option>
+                </optgroup>
+                <optgroup label="Французские мастера">
+                    <option value="mane">Эдуард Мане - «Испанский гитарист»</option>
+                </optgroup>
+            </select>
+            <br>
+            <label for="contact-page-form-tel">Контактный телефон:</label>
+            <input type="tel" placeholder="87776665544" name="" id="contact-page-form-tel">
+            <br>
+            <label for="contact-page-form-comment">Дополнительный комментарий:</label>
+            <br>
+            <textarea id="contact-page-form-comment" name="" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Отправить заказ">
+        </form>
+        <p id="contact-page-address"><b>Наш адрес: </b>ул. Макатаева 117 (угол ул. Масанчи),<br>
+        бизнес-центр Lotos, корпус А, офис 210. <br>Индекс — 050000.</p>
+        <br>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A94f3ae3070a7a1b6c79c118522b65be887f57d319fddfc41dc509679bb3a6966&amp;width=100%&amp;height=374&amp;lang=ru_RU&amp;scroll=true"></script>
+        <br>
+        <hr>
+        <div class="footer">
+            <p>Галерея репродукций &laquo;Олимпия&raquo;, 2021 &copy; Все права защищены</p>
+        </div>
+    </div>
+</body>
+</html>
